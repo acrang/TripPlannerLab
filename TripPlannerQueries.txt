@@ -1,0 +1,37 @@
+--CREATE TABLE Traveler(
+--UserID NVARCHAR(5) NOT NULL,
+--FirstName NVARCHAR(15) NOT NULL,
+--LastName NVARCHAR(15) NOT NULL,
+--DOB DATE NOT NULL,
+--AddressOnFile NVARCHAR(25) NOT NULL,
+--PhoneNumber NVARCHAR(12) NOT NULL,
+--PRIMARY KEY (UserID)
+--);
+
+--CREATE TABLE Passport(
+--PassportNumber NVARCHAR(9) NOT NULL,
+--ExpirationDate DATE NOT NULL,
+--ListedAddress NVARCHAR(25) NOT NULL,
+--PRIMARY KEY (PassportNumber)
+--);
+
+--CREATE TABLE Hotel(
+--StayID NVARCHAR(5) NOT NULL,
+--PhoneNumber NVARCHAR(12) NOT NULL,
+--AddressOnFile NVARCHAR(25) NOT NULL,
+--CheckInDate DATE NOT NULL,
+--CheckOutDate DATE NOT NULL,
+--CostPerNight FLOAT NOT NULL,
+--PRIMARY KEY (StayID)
+--);
+
+--CREATE TABLE Trip(
+--TripID NVARCHAR(5) NOT NULL,
+--StartDate DATE NOT NULL,
+--EndDate DATE NOT NULL,
+--StartDestination NVARCHAR(20) NOT NULL,
+--EndDestination NVARCHAR(20) NOT NULL,
+--Budget FLOAT NOT NULL,
+--TravelMode NVARCHAR(12),
+--PRIMARY KEY (TripID)
+--);
